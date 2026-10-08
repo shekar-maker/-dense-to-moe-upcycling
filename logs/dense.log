@@ -1,0 +1,218 @@
+run dense: dense, 20,848,512 parameters (20,848,512 active per token), 1831 steps x 16,384 tokens, lr 0.001 (warm-up 54, cosine to 0.1x)
+eval step     0 | tokens   0.00M | val loss 9.0757
+step    10/1831 | tokens   0.16M | loss 7.8464 | lr 1.85e-04 | gnorm 2.34 |  58,947 tok/s
+step    20/1831 | tokens   0.33M | loss 6.6191 | lr 3.70e-04 | gnorm 2.28 |  66,490 tok/s
+step    30/1831 | tokens   0.49M | loss 5.4142 | lr 5.56e-04 | gnorm 1.31 |  66,351 tok/s
+step    40/1831 | tokens   0.66M | loss 4.7334 | lr 7.41e-04 | gnorm 1.68 |  66,241 tok/s
+step    50/1831 | tokens   0.82M | loss 4.3457 | lr 9.26e-04 | gnorm 1.11 |  66,190 tok/s
+step    60/1831 | tokens   0.98M | loss 4.0280 | lr 1.00e-03 | gnorm 1.06 |  66,023 tok/s
+eval step    61 | tokens   1.00M | val loss 4.0141
+step    70/1831 | tokens   1.15M | loss 3.7814 | lr 1.00e-03 | gnorm 0.64 |  70,774 tok/s
+step    80/1831 | tokens   1.31M | loss 3.7481 | lr 1.00e-03 | gnorm 0.57 |  65,965 tok/s
+step    90/1831 | tokens   1.47M | loss 3.5772 | lr 9.99e-04 | gnorm 0.59 |  65,882 tok/s
+step   100/1831 | tokens   1.64M | loss 3.5043 | lr 9.99e-04 | gnorm 0.64 |  65,855 tok/s
+step   110/1831 | tokens   1.80M | loss 3.4524 | lr 9.98e-04 | gnorm 0.61 |  65,935 tok/s
+step   120/1831 | tokens   1.97M | loss 3.2496 | lr 9.97e-04 | gnorm 0.56 |  65,904 tok/s
+eval step   122 | tokens   2.00M | val loss 3.2556
+step   130/1831 | tokens   2.13M | loss 3.2129 | lr 9.96e-04 | gnorm 0.89 |  71,538 tok/s
+step   140/1831 | tokens   2.29M | loss 3.1060 | lr 9.95e-04 | gnorm 0.48 |  65,811 tok/s
+step   150/1831 | tokens   2.46M | loss 3.0668 | lr 9.94e-04 | gnorm 0.54 |  65,897 tok/s
+step   160/1831 | tokens   2.62M | loss 3.0957 | lr 9.92e-04 | gnorm 0.53 |  65,639 tok/s
+step   170/1831 | tokens   2.79M | loss 3.0564 | lr 9.91e-04 | gnorm 0.75 |  65,834 tok/s
+step   180/1831 | tokens   2.95M | loss 2.9533 | lr 9.89e-04 | gnorm 0.51 |  65,857 tok/s
+eval step   183 | tokens   3.00M | val loss 2.9204
+step   190/1831 | tokens   3.11M | loss 2.9079 | lr 9.87e-04 | gnorm 0.44 |  71,608 tok/s
+step   200/1831 | tokens   3.28M | loss 2.9234 | lr 9.85e-04 | gnorm 0.52 |  56,755 tok/s
+step   210/1831 | tokens   3.44M | loss 2.9673 | lr 9.83e-04 | gnorm 0.54 |  63,569 tok/s
+step   220/1831 | tokens   3.60M | loss 2.8043 | lr 9.81e-04 | gnorm 0.52 |  65,422 tok/s
+step   230/1831 | tokens   3.77M | loss 2.8028 | lr 9.79e-04 | gnorm 0.48 |  63,113 tok/s
+step   240/1831 | tokens   3.93M | loss 2.7534 | lr 9.76e-04 | gnorm 0.50 |  64,505 tok/s
+eval step   244 | tokens   4.00M | val loss 2.7154
+step   250/1831 | tokens   4.10M | loss 2.7749 | lr 9.74e-04 | gnorm 0.46 |  71,442 tok/s
+step   260/1831 | tokens   4.26M | loss 2.6909 | lr 9.71e-04 | gnorm 0.57 |  65,968 tok/s
+step   270/1831 | tokens   4.42M | loss 2.6502 | lr 9.68e-04 | gnorm 0.48 |  64,771 tok/s
+step   280/1831 | tokens   4.59M | loss 2.6513 | lr 9.65e-04 | gnorm 0.55 |  66,019 tok/s
+step   290/1831 | tokens   4.75M | loss 2.6400 | lr 9.62e-04 | gnorm 0.47 |  65,938 tok/s
+step   300/1831 | tokens   4.92M | loss 2.6644 | lr 9.58e-04 | gnorm 0.47 |  65,997 tok/s
+eval step   305 | tokens   5.00M | val loss 2.5774
+step   310/1831 | tokens   5.08M | loss 2.7210 | lr 9.55e-04 | gnorm 0.45 |  71,752 tok/s
+step   320/1831 | tokens   5.24M | loss 2.6665 | lr 9.52e-04 | gnorm 0.47 |  66,049 tok/s
+step   330/1831 | tokens   5.41M | loss 2.5449 | lr 9.48e-04 | gnorm 0.46 |  65,978 tok/s
+step   340/1831 | tokens   5.57M | loss 2.6590 | lr 9.44e-04 | gnorm 0.46 |  65,989 tok/s
+step   350/1831 | tokens   5.73M | loss 2.5517 | lr 9.40e-04 | gnorm 0.48 |  66,004 tok/s
+step   360/1831 | tokens   5.90M | loss 2.5121 | lr 9.36e-04 | gnorm 0.45 |  65,945 tok/s
+eval step   366 | tokens   6.00M | val loss 2.4679
+step   370/1831 | tokens   6.06M | loss 2.6124 | lr 9.32e-04 | gnorm 0.46 |  71,363 tok/s
+step   380/1831 | tokens   6.23M | loss 2.6081 | lr 9.28e-04 | gnorm 0.44 |  66,040 tok/s
+step   390/1831 | tokens   6.39M | loss 2.4894 | lr 9.23e-04 | gnorm 0.46 |  65,919 tok/s
+step   400/1831 | tokens   6.55M | loss 2.4843 | lr 9.19e-04 | gnorm 0.43 |  65,911 tok/s
+step   410/1831 | tokens   6.72M | loss 2.4584 | lr 9.14e-04 | gnorm 0.52 |  65,937 tok/s
+step   420/1831 | tokens   6.88M | loss 2.5698 | lr 9.10e-04 | gnorm 0.46 |  65,976 tok/s
+eval step   427 | tokens   7.00M | val loss 2.3800
+step   430/1831 | tokens   7.05M | loss 2.4046 | lr 9.05e-04 | gnorm 0.45 |  71,567 tok/s
+step   440/1831 | tokens   7.21M | loss 2.4781 | lr 9.00e-04 | gnorm 0.45 |  66,008 tok/s
+step   450/1831 | tokens   7.37M | loss 2.4296 | lr 8.95e-04 | gnorm 0.44 |  66,004 tok/s
+step   460/1831 | tokens   7.54M | loss 2.4373 | lr 8.89e-04 | gnorm 0.45 |  65,918 tok/s
+step   470/1831 | tokens   7.70M | loss 2.3667 | lr 8.84e-04 | gnorm 0.46 |  65,926 tok/s
+step   480/1831 | tokens   7.86M | loss 2.4659 | lr 8.79e-04 | gnorm 0.44 |  65,915 tok/s
+eval step   488 | tokens   8.00M | val loss 2.3052
+step   490/1831 | tokens   8.03M | loss 2.3746 | lr 8.73e-04 | gnorm 0.45 |  71,545 tok/s
+step   500/1831 | tokens   8.19M | loss 2.4457 | lr 8.68e-04 | gnorm 0.47 |  65,877 tok/s
+step   510/1831 | tokens   8.36M | loss 2.3963 | lr 8.62e-04 | gnorm 0.45 |  65,923 tok/s
+step   520/1831 | tokens   8.52M | loss 2.3047 | lr 8.56e-04 | gnorm 0.44 |  65,823 tok/s
+step   530/1831 | tokens   8.68M | loss 2.3198 | lr 8.50e-04 | gnorm 0.45 |  65,930 tok/s
+step   540/1831 | tokens   8.85M | loss 2.3299 | lr 8.44e-04 | gnorm 0.44 |  65,802 tok/s
+eval step   549 | tokens   8.99M | val loss 2.2453
+step   550/1831 | tokens   9.01M | loss 2.4320 | lr 8.38e-04 | gnorm 0.45 |  71,325 tok/s
+step   560/1831 | tokens   9.18M | loss 2.2857 | lr 8.32e-04 | gnorm 0.47 |  65,974 tok/s
+step   570/1831 | tokens   9.34M | loss 2.3308 | lr 8.26e-04 | gnorm 0.46 |  65,822 tok/s
+step   580/1831 | tokens   9.50M | loss 2.2351 | lr 8.20e-04 | gnorm 0.44 |  65,912 tok/s
+step   590/1831 | tokens   9.67M | loss 2.2934 | lr 8.13e-04 | gnorm 0.46 |  65,936 tok/s
+step   600/1831 | tokens   9.83M | loss 2.1917 | lr 8.07e-04 | gnorm 0.46 |  65,796 tok/s
+step   610/1831 | tokens   9.99M | loss 2.2354 | lr 8.00e-04 | gnorm 0.44 |  65,987 tok/s
+eval step   610 | tokens   9.99M | val loss 2.1926
+step   620/1831 | tokens  10.16M | loss 2.2973 | lr 7.94e-04 | gnorm 0.42 |  65,998 tok/s
+step   630/1831 | tokens  10.32M | loss 2.2001 | lr 7.87e-04 | gnorm 0.43 |  65,964 tok/s
+step   640/1831 | tokens  10.49M | loss 2.2949 | lr 7.80e-04 | gnorm 0.44 |  65,922 tok/s
+step   650/1831 | tokens  10.65M | loss 2.1373 | lr 7.73e-04 | gnorm 0.43 |  65,936 tok/s
+step   660/1831 | tokens  10.81M | loss 2.2436 | lr 7.66e-04 | gnorm 0.43 |  65,951 tok/s
+step   670/1831 | tokens  10.98M | loss 2.2727 | lr 7.59e-04 | gnorm 0.43 |  65,914 tok/s
+eval step   671 | tokens  10.99M | val loss 2.1492
+step   680/1831 | tokens  11.14M | loss 2.2522 | lr 7.52e-04 | gnorm 0.43 |  69,778 tok/s
+step   690/1831 | tokens  11.30M | loss 2.2749 | lr 7.45e-04 | gnorm 0.44 |  65,987 tok/s
+step   700/1831 | tokens  11.47M | loss 2.2196 | lr 7.38e-04 | gnorm 0.45 |  65,899 tok/s
+step   710/1831 | tokens  11.63M | loss 2.2545 | lr 7.31e-04 | gnorm 0.45 |  65,916 tok/s
+step   720/1831 | tokens  11.80M | loss 2.3081 | lr 7.23e-04 | gnorm 0.43 |  65,972 tok/s
+step   730/1831 | tokens  11.96M | loss 2.1811 | lr 7.16e-04 | gnorm 0.43 |  65,900 tok/s
+eval step   732 | tokens  11.99M | val loss 2.1077
+step   740/1831 | tokens  12.12M | loss 2.1174 | lr 7.08e-04 | gnorm 0.43 |  71,141 tok/s
+step   750/1831 | tokens  12.29M | loss 2.1241 | lr 7.01e-04 | gnorm 0.40 |  65,893 tok/s
+step   760/1831 | tokens  12.45M | loss 2.1931 | lr 6.93e-04 | gnorm 0.44 |  65,882 tok/s
+step   770/1831 | tokens  12.62M | loss 2.1791 | lr 6.86e-04 | gnorm 0.44 |  65,832 tok/s
+step   780/1831 | tokens  12.78M | loss 2.0892 | lr 6.78e-04 | gnorm 0.42 |  65,894 tok/s
+step   790/1831 | tokens  12.94M | loss 1.9779 | lr 6.71e-04 | gnorm 0.41 |  65,957 tok/s
+eval step   793 | tokens  12.99M | val loss 2.0633
+step   800/1831 | tokens  13.11M | loss 2.0114 | lr 6.63e-04 | gnorm 0.43 |  71,564 tok/s
+step   810/1831 | tokens  13.27M | loss 2.1674 | lr 6.55e-04 | gnorm 0.45 |  65,965 tok/s
+step   820/1831 | tokens  13.43M | loss 2.1936 | lr 6.47e-04 | gnorm 0.41 |  66,022 tok/s
+step   830/1831 | tokens  13.60M | loss 2.0816 | lr 6.40e-04 | gnorm 0.45 |  65,891 tok/s
+step   840/1831 | tokens  13.76M | loss 2.1887 | lr 6.32e-04 | gnorm 0.44 |  65,875 tok/s
+step   850/1831 | tokens  13.93M | loss 2.1349 | lr 6.24e-04 | gnorm 0.42 |  65,962 tok/s
+eval step   854 | tokens  13.99M | val loss 2.0325
+step   860/1831 | tokens  14.09M | loss 2.1138 | lr 6.16e-04 | gnorm 0.43 |  71,338 tok/s
+step   870/1831 | tokens  14.25M | loss 2.1013 | lr 6.08e-04 | gnorm 0.43 |  65,902 tok/s
+step   880/1831 | tokens  14.42M | loss 2.0983 | lr 6.00e-04 | gnorm 0.43 |  65,969 tok/s
+step   890/1831 | tokens  14.58M | loss 2.0400 | lr 5.92e-04 | gnorm 0.42 |  65,876 tok/s
+step   900/1831 | tokens  14.75M | loss 2.1321 | lr 5.85e-04 | gnorm 0.43 |  65,984 tok/s
+step   910/1831 | tokens  14.91M | loss 2.0548 | lr 5.77e-04 | gnorm 0.42 |  65,968 tok/s
+eval step   915 | tokens  14.99M | val loss 2.0020
+step   920/1831 | tokens  15.07M | loss 2.1054 | lr 5.69e-04 | gnorm 0.41 |  71,674 tok/s
+step   930/1831 | tokens  15.24M | loss 2.0106 | lr 5.61e-04 | gnorm 0.41 |  65,894 tok/s
+step   940/1831 | tokens  15.40M | loss 2.0555 | lr 5.53e-04 | gnorm 0.43 |  65,896 tok/s
+step   950/1831 | tokens  15.56M | loss 2.0319 | lr 5.45e-04 | gnorm 0.43 |  65,912 tok/s
+step   960/1831 | tokens  15.73M | loss 2.0086 | lr 5.37e-04 | gnorm 0.44 |  65,950 tok/s
+step   970/1831 | tokens  15.89M | loss 2.0665 | lr 5.29e-04 | gnorm 0.43 |  65,997 tok/s
+eval step   976 | tokens  15.99M | val loss 1.9712
+step   980/1831 | tokens  16.06M | loss 1.9519 | lr 5.21e-04 | gnorm 0.41 |  71,299 tok/s
+step   990/1831 | tokens  16.22M | loss 1.9974 | lr 5.13e-04 | gnorm 0.41 |  65,989 tok/s
+step  1000/1831 | tokens  16.38M | loss 2.0621 | lr 5.05e-04 | gnorm 0.41 |  65,938 tok/s
+step  1010/1831 | tokens  16.55M | loss 2.0352 | lr 4.97e-04 | gnorm 0.45 |  65,912 tok/s
+step  1020/1831 | tokens  16.71M | loss 2.0682 | lr 4.89e-04 | gnorm 0.43 |  65,915 tok/s
+step  1030/1831 | tokens  16.88M | loss 1.8788 | lr 4.81e-04 | gnorm 0.41 |  65,936 tok/s
+eval step  1037 | tokens  16.99M | val loss 1.9413
+step  1040/1831 | tokens  17.04M | loss 1.9735 | lr 4.74e-04 | gnorm 0.41 |  71,618 tok/s
+step  1050/1831 | tokens  17.20M | loss 1.9311 | lr 4.66e-04 | gnorm 0.41 |  65,929 tok/s
+step  1060/1831 | tokens  17.37M | loss 1.9127 | lr 4.58e-04 | gnorm 0.41 |  65,935 tok/s
+step  1070/1831 | tokens  17.53M | loss 1.9616 | lr 4.50e-04 | gnorm 0.42 |  65,952 tok/s
+step  1080/1831 | tokens  17.69M | loss 1.8655 | lr 4.42e-04 | gnorm 0.43 |  65,913 tok/s
+step  1090/1831 | tokens  17.86M | loss 2.0140 | lr 4.35e-04 | gnorm 0.42 |  65,929 tok/s
+eval step  1098 | tokens  17.99M | val loss 1.9166
+step  1100/1831 | tokens  18.02M | loss 1.9724 | lr 4.27e-04 | gnorm 0.42 |  71,078 tok/s
+step  1110/1831 | tokens  18.19M | loss 1.9406 | lr 4.19e-04 | gnorm 0.43 |  65,861 tok/s
+step  1120/1831 | tokens  18.35M | loss 2.0013 | lr 4.12e-04 | gnorm 0.41 |  65,904 tok/s
+step  1130/1831 | tokens  18.51M | loss 2.0136 | lr 4.04e-04 | gnorm 0.43 |  65,950 tok/s
+step  1140/1831 | tokens  18.68M | loss 2.0472 | lr 3.97e-04 | gnorm 0.43 |  65,918 tok/s
+step  1150/1831 | tokens  18.84M | loss 1.9450 | lr 3.89e-04 | gnorm 0.41 |  66,008 tok/s
+eval step  1159 | tokens  18.99M | val loss 1.8965
+step  1160/1831 | tokens  19.01M | loss 2.0675 | lr 3.82e-04 | gnorm 0.41 |  71,399 tok/s
+step  1170/1831 | tokens  19.17M | loss 1.9230 | lr 3.75e-04 | gnorm 0.42 |  65,833 tok/s
+step  1180/1831 | tokens  19.33M | loss 2.0268 | lr 3.67e-04 | gnorm 0.42 |  66,009 tok/s
+step  1190/1831 | tokens  19.50M | loss 1.9071 | lr 3.60e-04 | gnorm 0.42 |  65,935 tok/s
+step  1200/1831 | tokens  19.66M | loss 2.0472 | lr 3.53e-04 | gnorm 0.42 |  65,948 tok/s
+step  1210/1831 | tokens  19.82M | loss 1.9774 | lr 3.46e-04 | gnorm 0.42 |  65,927 tok/s
+step  1220/1831 | tokens  19.99M | loss 1.9214 | lr 3.39e-04 | gnorm 0.41 |  65,881 tok/s
+eval step  1220 | tokens  19.99M | val loss 1.8734
+step  1230/1831 | tokens  20.15M | loss 1.9800 | lr 3.32e-04 | gnorm 0.43 |  65,972 tok/s
+step  1240/1831 | tokens  20.32M | loss 1.9362 | lr 3.25e-04 | gnorm 0.42 |  66,001 tok/s
+step  1250/1831 | tokens  20.48M | loss 1.9230 | lr 3.18e-04 | gnorm 0.42 |  65,965 tok/s
+step  1260/1831 | tokens  20.64M | loss 1.9470 | lr 3.11e-04 | gnorm 0.45 |  65,999 tok/s
+step  1270/1831 | tokens  20.81M | loss 2.0106 | lr 3.04e-04 | gnorm 0.44 |  65,898 tok/s
+step  1280/1831 | tokens  20.97M | loss 1.9428 | lr 2.98e-04 | gnorm 0.42 |  65,892 tok/s
+eval step  1281 | tokens  20.99M | val loss 1.8571
+step  1290/1831 | tokens  21.14M | loss 1.9915 | lr 2.91e-04 | gnorm 0.45 |  70,041 tok/s
+step  1300/1831 | tokens  21.30M | loss 1.8141 | lr 2.85e-04 | gnorm 0.42 |  65,842 tok/s
+step  1310/1831 | tokens  21.46M | loss 1.9989 | lr 2.78e-04 | gnorm 0.42 |  65,825 tok/s
+step  1320/1831 | tokens  21.63M | loss 1.8911 | lr 2.72e-04 | gnorm 0.42 |  65,866 tok/s
+step  1330/1831 | tokens  21.79M | loss 1.9364 | lr 2.66e-04 | gnorm 0.42 |  65,874 tok/s
+step  1340/1831 | tokens  21.95M | loss 1.8853 | lr 2.60e-04 | gnorm 0.43 |  65,963 tok/s
+eval step  1342 | tokens  21.99M | val loss 1.8376
+step  1350/1831 | tokens  22.12M | loss 1.9013 | lr 2.54e-04 | gnorm 0.45 |  71,452 tok/s
+step  1360/1831 | tokens  22.28M | loss 1.8178 | lr 2.48e-04 | gnorm 0.42 |  65,840 tok/s
+step  1370/1831 | tokens  22.45M | loss 1.8642 | lr 2.42e-04 | gnorm 0.42 |  65,957 tok/s
+step  1380/1831 | tokens  22.61M | loss 1.9568 | lr 2.36e-04 | gnorm 0.42 |  65,956 tok/s
+step  1390/1831 | tokens  22.77M | loss 1.8866 | lr 2.31e-04 | gnorm 0.42 |  65,912 tok/s
+step  1400/1831 | tokens  22.94M | loss 1.9373 | lr 2.25e-04 | gnorm 0.42 |  65,911 tok/s
+eval step  1403 | tokens  22.99M | val loss 1.8241
+step  1410/1831 | tokens  23.10M | loss 1.9235 | lr 2.20e-04 | gnorm 0.44 |  71,268 tok/s
+step  1420/1831 | tokens  23.27M | loss 1.8531 | lr 2.14e-04 | gnorm 0.42 |  65,840 tok/s
+step  1430/1831 | tokens  23.43M | loss 1.8200 | lr 2.09e-04 | gnorm 0.41 |  65,933 tok/s
+step  1440/1831 | tokens  23.59M | loss 1.8741 | lr 2.04e-04 | gnorm 0.43 |  65,896 tok/s
+step  1450/1831 | tokens  23.76M | loss 1.8826 | lr 1.99e-04 | gnorm 0.42 |  65,923 tok/s
+step  1460/1831 | tokens  23.92M | loss 1.7958 | lr 1.94e-04 | gnorm 0.40 |  65,797 tok/s
+eval step  1464 | tokens  23.99M | val loss 1.8081
+step  1470/1831 | tokens  24.08M | loss 1.8206 | lr 1.89e-04 | gnorm 0.41 |  71,588 tok/s
+step  1480/1831 | tokens  24.25M | loss 1.8491 | lr 1.84e-04 | gnorm 0.42 |  65,897 tok/s
+step  1490/1831 | tokens  24.41M | loss 1.8172 | lr 1.80e-04 | gnorm 0.42 |  65,897 tok/s
+step  1500/1831 | tokens  24.58M | loss 1.9118 | lr 1.75e-04 | gnorm 0.43 |  65,858 tok/s
+step  1510/1831 | tokens  24.74M | loss 1.7015 | lr 1.71e-04 | gnorm 0.41 |  65,909 tok/s
+step  1520/1831 | tokens  24.90M | loss 1.9906 | lr 1.67e-04 | gnorm 0.44 |  65,918 tok/s
+eval step  1525 | tokens  24.99M | val loss 1.7958
+step  1530/1831 | tokens  25.07M | loss 1.8308 | lr 1.63e-04 | gnorm 0.42 |  71,476 tok/s
+step  1540/1831 | tokens  25.23M | loss 1.9230 | lr 1.59e-04 | gnorm 0.42 |  65,791 tok/s
+step  1550/1831 | tokens  25.40M | loss 1.8058 | lr 1.55e-04 | gnorm 0.42 |  65,898 tok/s
+step  1560/1831 | tokens  25.56M | loss 1.8537 | lr 1.51e-04 | gnorm 0.43 |  65,915 tok/s
+step  1570/1831 | tokens  25.72M | loss 1.7972 | lr 1.47e-04 | gnorm 0.41 |  65,941 tok/s
+step  1580/1831 | tokens  25.89M | loss 1.8663 | lr 1.44e-04 | gnorm 0.42 |  65,944 tok/s
+eval step  1586 | tokens  25.99M | val loss 1.7842
+step  1590/1831 | tokens  26.05M | loss 1.8265 | lr 1.41e-04 | gnorm 0.42 |  71,296 tok/s
+step  1600/1831 | tokens  26.21M | loss 1.8826 | lr 1.37e-04 | gnorm 0.45 |  65,911 tok/s
+step  1610/1831 | tokens  26.38M | loss 1.9037 | lr 1.34e-04 | gnorm 0.43 |  65,972 tok/s
+step  1620/1831 | tokens  26.54M | loss 1.8803 | lr 1.31e-04 | gnorm 0.42 |  65,953 tok/s
+step  1630/1831 | tokens  26.71M | loss 1.8272 | lr 1.28e-04 | gnorm 0.41 |  65,895 tok/s
+step  1640/1831 | tokens  26.87M | loss 1.9656 | lr 1.26e-04 | gnorm 0.44 |  65,906 tok/s
+eval step  1647 | tokens  26.98M | val loss 1.7774
+step  1650/1831 | tokens  27.03M | loss 1.9643 | lr 1.23e-04 | gnorm 0.46 |  71,401 tok/s
+step  1660/1831 | tokens  27.20M | loss 1.8559 | lr 1.21e-04 | gnorm 0.43 |  65,777 tok/s
+step  1670/1831 | tokens  27.36M | loss 1.8501 | lr 1.18e-04 | gnorm 0.43 |  65,901 tok/s
+step  1680/1831 | tokens  27.53M | loss 1.7883 | lr 1.16e-04 | gnorm 0.43 |  65,926 tok/s
+step  1690/1831 | tokens  27.69M | loss 1.9104 | lr 1.14e-04 | gnorm 0.43 |  65,913 tok/s
+step  1700/1831 | tokens  27.85M | loss 1.8047 | lr 1.12e-04 | gnorm 0.43 |  65,954 tok/s
+eval step  1708 | tokens  27.98M | val loss 1.7681
+step  1710/1831 | tokens  28.02M | loss 1.8355 | lr 1.10e-04 | gnorm 0.43 |  71,356 tok/s
+step  1720/1831 | tokens  28.18M | loss 1.8616 | lr 1.09e-04 | gnorm 0.44 |  65,939 tok/s
+step  1730/1831 | tokens  28.34M | loss 1.7545 | lr 1.07e-04 | gnorm 0.42 |  65,878 tok/s
+step  1740/1831 | tokens  28.51M | loss 1.8802 | lr 1.06e-04 | gnorm 0.43 |  65,744 tok/s
+step  1750/1831 | tokens  28.67M | loss 1.8798 | lr 1.05e-04 | gnorm 0.44 |  65,864 tok/s
+step  1760/1831 | tokens  28.84M | loss 1.7524 | lr 1.04e-04 | gnorm 0.43 |  65,903 tok/s
+eval step  1769 | tokens  28.98M | val loss 1.7617
+step  1770/1831 | tokens  29.00M | loss 1.8387 | lr 1.03e-04 | gnorm 0.43 |  71,168 tok/s
+step  1780/1831 | tokens  29.16M | loss 1.8428 | lr 1.02e-04 | gnorm 0.43 |  65,909 tok/s
+step  1790/1831 | tokens  29.33M | loss 1.8900 | lr 1.01e-04 | gnorm 0.44 |  65,875 tok/s
+step  1800/1831 | tokens  29.49M | loss 1.8154 | lr 1.01e-04 | gnorm 0.45 |  65,905 tok/s
+step  1810/1831 | tokens  29.66M | loss 1.7738 | lr 1.00e-04 | gnorm 0.43 |  65,894 tok/s
+step  1820/1831 | tokens  29.82M | loss 1.9041 | lr 1.00e-04 | gnorm 0.43 |  65,912 tok/s
+step  1830/1831 | tokens  29.98M | loss 1.8068 | lr 1.00e-04 | gnorm 0.43 |  65,937 tok/s
+eval step  1830 | tokens  29.98M | val loss 1.7547
+step  1831/1831 | tokens  30.00M | loss 1.8185 | lr 1.00e-04 | gnorm 0.43 |  65,642 tok/s
+eval step  1831 | tokens  30.00M | val loss 1.7546
+done dense: val loss 9.0757 -> 1.7546, 66,565 tok/s, peak 4.98 GiB, 8.0 min

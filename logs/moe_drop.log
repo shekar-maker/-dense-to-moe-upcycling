@@ -1,0 +1,146 @@
+run moe_drop: moe, 103,454,592 parameters (32,675,712 active per token), 1220 steps x 16,384 tokens, lr 0.0003 (warm-up 36, cosine to 0.1x)
+  experts 8 x 1024 wide, top-2, route scale 1, balance bias
+eval step     0 | tokens   0.00M | val loss 2.2503 | expert cos-sim 0.250
+step    10/1220 | tokens   0.16M | loss 2.0722 | lr 8.33e-05 | gnorm 0.69 |  21,660 tok/s | maxvio mean 0.08 max 0.17 | dead 0/80 | starved 0
+step    20/1220 | tokens   0.33M | loss 1.9108 | lr 1.67e-04 | gnorm 0.51 |  22,247 tok/s | maxvio mean 0.07 max 0.09 | dead 0/80 | starved 0
+step    30/1220 | tokens   0.49M | loss 1.9301 | lr 2.50e-04 | gnorm 0.48 |  22,644 tok/s | maxvio mean 0.05 max 0.08 | dead 0/80 | starved 0
+step    40/1220 | tokens   0.66M | loss 1.9867 | lr 3.00e-04 | gnorm 0.49 |  22,387 tok/s | maxvio mean 0.06 max 0.10 | dead 0/80 | starved 0
+step    50/1220 | tokens   0.82M | loss 1.9011 | lr 3.00e-04 | gnorm 0.46 |  21,424 tok/s | maxvio mean 0.06 max 0.11 | dead 0/80 | starved 0
+step    60/1220 | tokens   0.98M | loss 1.9826 | lr 3.00e-04 | gnorm 0.48 |  21,744 tok/s | maxvio mean 0.03 max 0.07 | dead 0/80 | starved 0
+eval step    61 | tokens   1.00M | val loss 1.8909 | expert cos-sim 0.251
+step    70/1220 | tokens   1.15M | loss 1.9042 | lr 2.99e-04 | gnorm 0.47 |  22,142 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+step    80/1220 | tokens   1.31M | loss 1.9030 | lr 2.99e-04 | gnorm 0.45 |  21,297 tok/s | maxvio mean 0.04 max 0.05 | dead 0/80 | starved 0
+step    90/1220 | tokens   1.47M | loss 1.9090 | lr 2.99e-04 | gnorm 0.46 |  22,926 tok/s | maxvio mean 0.05 max 0.09 | dead 0/80 | starved 0
+step   100/1220 | tokens   1.64M | loss 1.8967 | lr 2.98e-04 | gnorm 0.45 |  21,266 tok/s | maxvio mean 0.04 max 0.08 | dead 0/80 | starved 0
+step   110/1220 | tokens   1.80M | loss 1.9470 | lr 2.97e-04 | gnorm 0.45 |  20,633 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+step   120/1220 | tokens   1.97M | loss 1.9525 | lr 2.97e-04 | gnorm 0.46 |  22,081 tok/s | maxvio mean 0.04 max 0.05 | dead 0/80 | starved 0
+eval step   122 | tokens   2.00M | val loss 1.8691 | expert cos-sim 0.252
+step   130/1220 | tokens   2.13M | loss 2.0125 | lr 2.96e-04 | gnorm 0.45 |  22,249 tok/s | maxvio mean 0.05 max 0.08 | dead 0/80 | starved 0
+step   140/1220 | tokens   2.29M | loss 1.8250 | lr 2.95e-04 | gnorm 0.44 |  23,271 tok/s | maxvio mean 0.04 max 0.06 | dead 0/80 | starved 0
+step   150/1220 | tokens   2.46M | loss 1.8584 | lr 2.94e-04 | gnorm 0.44 |  23,274 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+step   160/1220 | tokens   2.62M | loss 1.9484 | lr 2.93e-04 | gnorm 0.46 |  22,898 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+step   170/1220 | tokens   2.79M | loss 1.8026 | lr 2.92e-04 | gnorm 0.43 |  23,763 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+step   180/1220 | tokens   2.95M | loss 1.9259 | lr 2.90e-04 | gnorm 0.46 |  23,037 tok/s | maxvio mean 0.04 max 0.08 | dead 0/80 | starved 0
+eval step   183 | tokens   3.00M | val loss 1.8482 | expert cos-sim 0.253
+step   190/1220 | tokens   3.11M | loss 1.8853 | lr 2.89e-04 | gnorm 0.45 |  22,608 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   200/1220 | tokens   3.28M | loss 1.9504 | lr 2.88e-04 | gnorm 0.43 |  22,685 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   210/1220 | tokens   3.44M | loss 1.8184 | lr 2.86e-04 | gnorm 0.43 |  22,778 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   220/1220 | tokens   3.60M | loss 1.7973 | lr 2.84e-04 | gnorm 0.42 |  22,704 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+step   230/1220 | tokens   3.77M | loss 1.8779 | lr 2.83e-04 | gnorm 0.45 |  22,339 tok/s | maxvio mean 0.05 max 0.09 | dead 0/80 | starved 0
+step   240/1220 | tokens   3.93M | loss 1.8357 | lr 2.81e-04 | gnorm 0.42 |  24,798 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+eval step   244 | tokens   4.00M | val loss 1.8319 | expert cos-sim 0.253
+step   250/1220 | tokens   4.10M | loss 1.8544 | lr 2.79e-04 | gnorm 0.43 |  24,856 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   260/1220 | tokens   4.26M | loss 1.8391 | lr 2.77e-04 | gnorm 0.42 |  23,626 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   270/1220 | tokens   4.42M | loss 1.9621 | lr 2.75e-04 | gnorm 0.43 |  23,738 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   280/1220 | tokens   4.59M | loss 1.8850 | lr 2.73e-04 | gnorm 0.44 |  23,199 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   290/1220 | tokens   4.75M | loss 1.9337 | lr 2.71e-04 | gnorm 0.45 |  23,846 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   300/1220 | tokens   4.92M | loss 1.8576 | lr 2.68e-04 | gnorm 0.43 |  22,936 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+eval step   305 | tokens   5.00M | val loss 1.8149 | expert cos-sim 0.253
+step   310/1220 | tokens   5.08M | loss 1.9041 | lr 2.66e-04 | gnorm 0.44 |  23,758 tok/s | maxvio mean 0.04 max 0.11 | dead 0/80 | starved 0
+step   320/1220 | tokens   5.24M | loss 1.7600 | lr 2.64e-04 | gnorm 0.43 |  23,367 tok/s | maxvio mean 0.05 max 0.09 | dead 0/80 | starved 0
+step   330/1220 | tokens   5.41M | loss 1.8455 | lr 2.61e-04 | gnorm 0.42 |  23,259 tok/s | maxvio mean 0.05 max 0.15 | dead 0/80 | starved 0
+step   340/1220 | tokens   5.57M | loss 1.8394 | lr 2.59e-04 | gnorm 0.43 |  23,685 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+step   350/1220 | tokens   5.73M | loss 1.8953 | lr 2.56e-04 | gnorm 0.44 |  22,918 tok/s | maxvio mean 0.03 max 0.07 | dead 0/80 | starved 0
+step   360/1220 | tokens   5.90M | loss 1.8557 | lr 2.53e-04 | gnorm 0.42 |  22,280 tok/s | maxvio mean 0.04 max 0.08 | dead 0/80 | starved 0
+eval step   366 | tokens   6.00M | val loss 1.8032 | expert cos-sim 0.253
+step   370/1220 | tokens   6.06M | loss 1.8041 | lr 2.51e-04 | gnorm 0.42 |  21,863 tok/s | maxvio mean 0.04 max 0.08 | dead 0/80 | starved 0
+step   380/1220 | tokens   6.23M | loss 1.9535 | lr 2.48e-04 | gnorm 0.43 |  20,966 tok/s | maxvio mean 0.03 max 0.04 | dead 0/80 | starved 0
+step   390/1220 | tokens   6.39M | loss 1.8601 | lr 2.45e-04 | gnorm 0.43 |  22,402 tok/s | maxvio mean 0.04 max 0.08 | dead 0/80 | starved 0
+step   400/1220 | tokens   6.55M | loss 1.7962 | lr 2.42e-04 | gnorm 0.44 |  21,959 tok/s | maxvio mean 0.03 max 0.07 | dead 0/80 | starved 0
+step   410/1220 | tokens   6.72M | loss 1.9019 | lr 2.39e-04 | gnorm 0.43 |  21,584 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   420/1220 | tokens   6.88M | loss 1.8653 | lr 2.36e-04 | gnorm 0.45 |  21,639 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+eval step   427 | tokens   7.00M | val loss 1.7850 | expert cos-sim 0.253
+step   430/1220 | tokens   7.05M | loss 1.9819 | lr 2.33e-04 | gnorm 0.46 |  21,752 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+step   440/1220 | tokens   7.21M | loss 1.7378 | lr 2.30e-04 | gnorm 0.41 |  22,079 tok/s | maxvio mean 0.03 max 0.07 | dead 0/80 | starved 0
+step   450/1220 | tokens   7.37M | loss 1.8974 | lr 2.27e-04 | gnorm 0.44 |  23,688 tok/s | maxvio mean 0.03 max 0.09 | dead 0/80 | starved 0
+step   460/1220 | tokens   7.54M | loss 1.8089 | lr 2.24e-04 | gnorm 0.41 |  22,831 tok/s | maxvio mean 0.04 max 0.10 | dead 0/80 | starved 0
+step   470/1220 | tokens   7.70M | loss 1.7393 | lr 2.20e-04 | gnorm 0.42 |  22,029 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+step   480/1220 | tokens   7.86M | loss 1.9394 | lr 2.17e-04 | gnorm 0.43 |  22,170 tok/s | maxvio mean 0.04 max 0.09 | dead 0/80 | starved 0
+eval step   488 | tokens   8.00M | val loss 1.7691 | expert cos-sim 0.253
+step   490/1220 | tokens   8.03M | loss 1.7349 | lr 2.14e-04 | gnorm 0.42 |  22,397 tok/s | maxvio mean 0.03 max 0.08 | dead 0/80 | starved 0
+step   500/1220 | tokens   8.19M | loss 1.8012 | lr 2.10e-04 | gnorm 0.43 |  21,581 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   510/1220 | tokens   8.36M | loss 1.7937 | lr 2.07e-04 | gnorm 0.42 |  22,128 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   520/1220 | tokens   8.52M | loss 1.8395 | lr 2.04e-04 | gnorm 0.41 |  23,153 tok/s | maxvio mean 0.04 max 0.10 | dead 0/80 | starved 0
+step   530/1220 | tokens   8.68M | loss 1.8862 | lr 2.00e-04 | gnorm 0.41 |  23,612 tok/s | maxvio mean 0.04 max 0.08 | dead 0/80 | starved 0
+step   540/1220 | tokens   8.85M | loss 1.9069 | lr 1.97e-04 | gnorm 0.44 |  22,878 tok/s | maxvio mean 0.03 max 0.08 | dead 0/80 | starved 0
+eval step   549 | tokens   8.99M | val loss 1.7575 | expert cos-sim 0.253
+step   550/1220 | tokens   9.01M | loss 1.7875 | lr 1.93e-04 | gnorm 0.42 |  22,193 tok/s | maxvio mean 0.03 max 0.04 | dead 0/80 | starved 0
+step   560/1220 | tokens   9.18M | loss 1.7603 | lr 1.90e-04 | gnorm 0.42 |  23,381 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+step   570/1220 | tokens   9.34M | loss 1.8359 | lr 1.86e-04 | gnorm 0.44 |  23,789 tok/s | maxvio mean 0.04 max 0.06 | dead 0/80 | starved 0
+step   580/1220 | tokens   9.50M | loss 1.8740 | lr 1.83e-04 | gnorm 0.43 |  22,490 tok/s | maxvio mean 0.03 max 0.04 | dead 0/80 | starved 0
+step   590/1220 | tokens   9.67M | loss 1.8497 | lr 1.79e-04 | gnorm 0.42 |  20,845 tok/s | maxvio mean 0.03 max 0.04 | dead 0/80 | starved 0
+step   600/1220 | tokens   9.83M | loss 1.8850 | lr 1.75e-04 | gnorm 0.43 |  22,244 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+step   610/1220 | tokens   9.99M | loss 1.7964 | lr 1.72e-04 | gnorm 0.42 |  21,943 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+eval step   610 | tokens   9.99M | val loss 1.7431 | expert cos-sim 0.253
+step   620/1220 | tokens  10.16M | loss 1.9418 | lr 1.68e-04 | gnorm 0.44 |  22,648 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   630/1220 | tokens  10.32M | loss 1.7054 | lr 1.65e-04 | gnorm 0.42 |  23,144 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   640/1220 | tokens  10.49M | loss 1.8184 | lr 1.61e-04 | gnorm 0.42 |  22,753 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   650/1220 | tokens  10.65M | loss 1.7508 | lr 1.57e-04 | gnorm 0.41 |  21,691 tok/s | maxvio mean 0.03 max 0.09 | dead 0/80 | starved 0
+step   660/1220 | tokens  10.81M | loss 1.7985 | lr 1.54e-04 | gnorm 0.43 |  21,309 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   670/1220 | tokens  10.98M | loss 1.7516 | lr 1.50e-04 | gnorm 0.42 |  21,477 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+eval step   671 | tokens  10.99M | val loss 1.7316 | expert cos-sim 0.253
+step   680/1220 | tokens  11.14M | loss 1.8171 | lr 1.47e-04 | gnorm 0.44 |  21,127 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   690/1220 | tokens  11.30M | loss 1.7898 | lr 1.43e-04 | gnorm 0.42 |  20,301 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   700/1220 | tokens  11.47M | loss 1.8409 | lr 1.40e-04 | gnorm 0.42 |  20,763 tok/s | maxvio mean 0.04 max 0.09 | dead 0/80 | starved 0
+step   710/1220 | tokens  11.63M | loss 1.8654 | lr 1.36e-04 | gnorm 0.42 |  21,265 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   720/1220 | tokens  11.80M | loss 1.7136 | lr 1.33e-04 | gnorm 0.41 |  21,634 tok/s | maxvio mean 0.02 max 0.04 | dead 0/80 | starved 0
+step   730/1220 | tokens  11.96M | loss 1.7895 | lr 1.29e-04 | gnorm 0.43 |  20,756 tok/s | maxvio mean 0.03 max 0.07 | dead 0/80 | starved 0
+eval step   732 | tokens  11.99M | val loss 1.7183 | expert cos-sim 0.253
+step   740/1220 | tokens  12.12M | loss 1.7923 | lr 1.26e-04 | gnorm 0.43 |  22,455 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   750/1220 | tokens  12.29M | loss 1.7556 | lr 1.22e-04 | gnorm 0.43 |  22,297 tok/s | maxvio mean 0.04 max 0.07 | dead 0/80 | starved 0
+step   760/1220 | tokens  12.45M | loss 1.6991 | lr 1.19e-04 | gnorm 0.43 |  23,261 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   770/1220 | tokens  12.62M | loss 1.7877 | lr 1.16e-04 | gnorm 0.42 |  22,579 tok/s | maxvio mean 0.03 max 0.07 | dead 0/80 | starved 0
+step   780/1220 | tokens  12.78M | loss 1.8143 | lr 1.12e-04 | gnorm 0.42 |  23,359 tok/s | maxvio mean 0.03 max 0.07 | dead 0/80 | starved 0
+step   790/1220 | tokens  12.94M | loss 1.6877 | lr 1.09e-04 | gnorm 0.41 |  22,393 tok/s | maxvio mean 0.02 max 0.04 | dead 0/80 | starved 0
+eval step   793 | tokens  12.99M | val loss 1.7062 | expert cos-sim 0.252
+step   800/1220 | tokens  13.11M | loss 1.7436 | lr 1.06e-04 | gnorm 0.43 |  21,038 tok/s | maxvio mean 0.04 max 0.13 | dead 0/80 | starved 0
+step   810/1220 | tokens  13.27M | loss 1.6922 | lr 1.03e-04 | gnorm 0.41 |  21,952 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   820/1220 | tokens  13.43M | loss 1.7505 | lr 9.95e-05 | gnorm 0.43 |  21,596 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   830/1220 | tokens  13.60M | loss 1.6950 | lr 9.64e-05 | gnorm 0.42 |  22,414 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   840/1220 | tokens  13.76M | loss 1.7910 | lr 9.33e-05 | gnorm 0.43 |  22,348 tok/s | maxvio mean 0.03 max 0.09 | dead 0/80 | starved 0
+step   850/1220 | tokens  13.93M | loss 1.8110 | lr 9.03e-05 | gnorm 0.42 |  21,315 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+eval step   854 | tokens  13.99M | val loss 1.6974 | expert cos-sim 0.252
+step   860/1220 | tokens  14.09M | loss 1.6986 | lr 8.73e-05 | gnorm 0.41 |  22,951 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   870/1220 | tokens  14.25M | loss 1.6975 | lr 8.44e-05 | gnorm 0.41 |  20,905 tok/s | maxvio mean 0.03 max 0.09 | dead 0/80 | starved 0
+step   880/1220 | tokens  14.42M | loss 1.7097 | lr 8.16e-05 | gnorm 0.42 |  22,438 tok/s | maxvio mean 0.03 max 0.07 | dead 0/80 | starved 0
+step   890/1220 | tokens  14.58M | loss 1.7322 | lr 7.88e-05 | gnorm 0.42 |  22,186 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   900/1220 | tokens  14.75M | loss 1.7479 | lr 7.61e-05 | gnorm 0.42 |  23,010 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   910/1220 | tokens  14.91M | loss 1.7502 | lr 7.34e-05 | gnorm 0.43 |  21,300 tok/s | maxvio mean 0.03 max 0.04 | dead 0/80 | starved 0
+eval step   915 | tokens  14.99M | val loss 1.6879 | expert cos-sim 0.252
+step   920/1220 | tokens  15.07M | loss 1.7761 | lr 7.08e-05 | gnorm 0.42 |  21,798 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   930/1220 | tokens  15.24M | loss 1.8597 | lr 6.83e-05 | gnorm 0.42 |  22,495 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   940/1220 | tokens  15.40M | loss 1.7812 | lr 6.58e-05 | gnorm 0.42 |  22,062 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   950/1220 | tokens  15.56M | loss 1.6096 | lr 6.34e-05 | gnorm 0.42 |  22,606 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step   960/1220 | tokens  15.73M | loss 1.7228 | lr 6.11e-05 | gnorm 0.43 |  22,049 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step   970/1220 | tokens  15.89M | loss 1.7958 | lr 5.88e-05 | gnorm 0.44 |  23,627 tok/s | maxvio mean 0.03 max 0.04 | dead 0/80 | starved 0
+eval step   976 | tokens  15.99M | val loss 1.6806 | expert cos-sim 0.252
+step   980/1220 | tokens  16.06M | loss 1.7293 | lr 5.67e-05 | gnorm 0.42 |  22,042 tok/s | maxvio mean 0.02 max 0.03 | dead 0/80 | starved 0
+step   990/1220 | tokens  16.22M | loss 1.7467 | lr 5.46e-05 | gnorm 0.43 |  22,265 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step  1000/1220 | tokens  16.38M | loss 1.7115 | lr 5.26e-05 | gnorm 0.42 |  21,507 tok/s | maxvio mean 0.02 max 0.04 | dead 0/80 | starved 0
+step  1010/1220 | tokens  16.55M | loss 1.7305 | lr 5.06e-05 | gnorm 0.43 |  22,173 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step  1020/1220 | tokens  16.71M | loss 1.6775 | lr 4.87e-05 | gnorm 0.42 |  20,746 tok/s | maxvio mean 0.02 max 0.04 | dead 0/80 | starved 0
+step  1030/1220 | tokens  16.88M | loss 1.6970 | lr 4.70e-05 | gnorm 0.42 |  21,210 tok/s | maxvio mean 0.02 max 0.05 | dead 0/80 | starved 0
+eval step  1037 | tokens  16.99M | val loss 1.6745 | expert cos-sim 0.252
+step  1040/1220 | tokens  17.04M | loss 1.7931 | lr 4.53e-05 | gnorm 0.43 |  21,617 tok/s | maxvio mean 0.02 max 0.05 | dead 0/80 | starved 0
+step  1050/1220 | tokens  17.20M | loss 1.7968 | lr 4.37e-05 | gnorm 0.43 |  21,069 tok/s | maxvio mean 0.02 max 0.04 | dead 0/80 | starved 0
+step  1060/1220 | tokens  17.37M | loss 1.7066 | lr 4.21e-05 | gnorm 0.41 |  21,293 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+step  1070/1220 | tokens  17.53M | loss 1.7368 | lr 4.07e-05 | gnorm 0.42 |  21,973 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step  1080/1220 | tokens  17.69M | loss 1.7939 | lr 3.93e-05 | gnorm 0.42 |  23,099 tok/s | maxvio mean 0.02 max 0.04 | dead 0/80 | starved 0
+step  1090/1220 | tokens  17.86M | loss 1.6722 | lr 3.81e-05 | gnorm 0.42 |  22,055 tok/s | maxvio mean 0.03 max 0.05 | dead 0/80 | starved 0
+eval step  1098 | tokens  17.99M | val loss 1.6683 | expert cos-sim 0.252
+step  1100/1220 | tokens  18.02M | loss 1.7758 | lr 3.69e-05 | gnorm 0.43 |  21,874 tok/s | maxvio mean 0.02 max 0.04 | dead 0/80 | starved 0
+step  1110/1220 | tokens  18.19M | loss 1.6779 | lr 3.58e-05 | gnorm 0.42 |  20,904 tok/s | maxvio mean 0.02 max 0.04 | dead 0/80 | starved 0
+step  1120/1220 | tokens  18.35M | loss 1.7727 | lr 3.48e-05 | gnorm 0.42 |  22,851 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step  1130/1220 | tokens  18.51M | loss 1.6704 | lr 3.39e-05 | gnorm 0.42 |  22,700 tok/s | maxvio mean 0.03 max 0.07 | dead 0/80 | starved 0
+step  1140/1220 | tokens  18.68M | loss 1.7384 | lr 3.31e-05 | gnorm 0.44 |  23,044 tok/s | maxvio mean 0.02 max 0.07 | dead 0/80 | starved 0
+step  1150/1220 | tokens  18.84M | loss 1.7278 | lr 3.24e-05 | gnorm 0.42 |  22,227 tok/s | maxvio mean 0.02 max 0.04 | dead 0/80 | starved 0
+eval step  1159 | tokens  18.99M | val loss 1.6638 | expert cos-sim 0.252
+step  1160/1220 | tokens  19.01M | loss 1.7269 | lr 3.18e-05 | gnorm 0.42 |  22,185 tok/s | maxvio mean 0.03 max 0.06 | dead 0/80 | starved 0
+step  1170/1220 | tokens  19.17M | loss 1.6776 | lr 3.12e-05 | gnorm 0.43 |  22,291 tok/s | maxvio mean 0.02 max 0.04 | dead 0/80 | starved 0
+step  1180/1220 | tokens  19.33M | loss 1.8206 | lr 3.08e-05 | gnorm 0.42 |  21,860 tok/s | maxvio mean 0.03 max 0.07 | dead 0/80 | starved 0
+step  1190/1220 | tokens  19.50M | loss 1.6021 | lr 3.05e-05 | gnorm 0.41 |  22,113 tok/s | maxvio mean 0.04 max 0.08 | dead 0/80 | starved 0
+step  1200/1220 | tokens  19.66M | loss 1.7011 | lr 3.02e-05 | gnorm 0.42 |  21,792 tok/s | maxvio mean 0.02 max 0.05 | dead 0/80 | starved 0
+step  1210/1220 | tokens  19.82M | loss 1.7548 | lr 3.01e-05 | gnorm 0.42 |  20,824 tok/s | maxvio mean 0.02 max 0.04 | dead 0/80 | starved 0
+step  1220/1220 | tokens  19.99M | loss 1.7093 | lr 3.00e-05 | gnorm 0.41 |  21,225 tok/s | maxvio mean 0.03 max 0.07 | dead 0/80 | starved 0
+eval step  1220 | tokens  19.99M | val loss 1.6606 | expert cos-sim 0.252
+done moe_drop: val loss 2.2503 -> 1.6606, 22,250 tok/s, peak 5.43 GiB, 15.7 min

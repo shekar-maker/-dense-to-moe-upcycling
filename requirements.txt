@@ -1,0 +1,9 @@
+torch>=2.4
+numpy>=1.24
+matplotlib>=3.7
+datasets>=2.18      # streams TinyStories
+tokenizers>=0.15    # trains the 8,192-token BPE
+# only needed to re-execute the notebook from the command line
+nbformat>=5.9
+nbclient>=0.9
+ipykernel>=6.25
